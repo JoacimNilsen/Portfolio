@@ -1,6 +1,7 @@
 body {
 	margin: 0px auto;
 	font-family: "Montserrat", sans-serif;
+	letter-spacing: 0;
 }
 
 header {
@@ -31,7 +32,8 @@ h2 {
 	border-left: 10px solid #fa382f;
 	border-right: 10px solid #fa382f;
 	background-color: #fa382f;
-	font-size: 40px;
+	font-size: 45px;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -47,20 +49,53 @@ h4 {
 	font-family: "Roboto", sans-serif;
 }
 
+h5 {
+	font-size: 45px;
+	color: red;
+	text-transform: uppercase;
+}
+
+.bold {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
 .highlight {
 	text-align: left;
 	color: red;
-	font-weight: bold;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
 }
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.small-link {
+	color: red;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.text-link {
+	color: red;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 .link {
 	padding: 25px;
 	border-radius: 50%;
 }
+
+/* Header */
 
 .circle {
 	width: 70px;
@@ -104,6 +139,13 @@ a {
 	align-items: center;
 }
 
+.description {
+	width: 1024px;
+	font-size: 30px;
+}
+
+/* Tech skills */
+
 .tech-skills {
 	height: 400px;
 	display: flex;
@@ -115,20 +157,17 @@ a {
 .tech-skills p {
 	font-size: 30px;
 	width: 1024px;
-}
-
-.description {
-	width: 1024px;
-	font-size: 30px;
+	font-family: "Roboto", sans-serif;
 }
 
 /* Projects section */
 
 .wrapper-projects {
 	background: #f4f4f4;
+	padding-top: 70px;
+	padding-bottom: 70px;
 	display: flex;
 	align-items: center;
-	justify-content: ;
 	flex-direction: column;
 }
 
@@ -173,6 +212,23 @@ a {
 .main-projects p {
 	font-size: 25px;
 	width: 500px;
+	font-family: "Roboto", sans-serif;
+}
+
+.other-projects {
+	width: 1024px;
+}
+
+.other-projects p {
+	font-size: 25px;
+	text-decoration: underline;
+	font-family: "Roboto", sans-serif;
+}
+
+.other-projects h5 {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
 }
 
 .column1 {
@@ -197,5 +253,35 @@ a {
 .tags {
 	display: flex;
 	width: 500px;
-	justify-content: flex-start;
+}
+
+/* Thoughts about code section */
+
+.thoughts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.date {
+	color: red;
+}
+
+.thoughts p {
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+}
+
+.thoughts-image {
+	background-image: url(/assets/technigo.jpg);
+	background-size: cover;
+	margin: auto;
+}
+
+.thoughts-link {
+	width: 500px;
+	height: auto;
 }
