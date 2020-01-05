@@ -7,10 +7,11 @@ body {
 
 header {
 	background: url(/assets/background.jpg);
-	background-size: auto;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position-y: -330px;
+	background-position-y: -340px;
 	height: 500px;
+	width: auto;
 }
 
 .head-text {
@@ -271,6 +272,11 @@ a:visited {
 	color: red;
 }
 
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
 .thoughts p {
 	font-family: "Roboto", sans-serif;
 	font-size: 25px;
@@ -282,7 +288,54 @@ a:visited {
 	margin: auto;
 }
 
+.movies-image {
+	background-image: url(/assets/movies.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
 .thoughts-link {
+	margin: 20px;
 	width: 500px;
 	height: auto;
+}
+
+/* Skills section */
+
+.skills {
+	background: #f4f4f4;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.skill-box-wrap {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+	padding: 0 0 15px 0;
+	width: 280px;
+}
+
+li {
+	font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+h6 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	color: red;
+  margin: 0;
+  font-size: 25px;
 }
