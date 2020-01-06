@@ -4,7 +4,7 @@ body {
 	letter-spacing: 0;
 	line-height: 1.5;
 	width: auto;
-	position: absolute;
+	position: relative;
 	top: -27px;
 }
 
@@ -229,7 +229,7 @@ a:visited {
 
 .main-projects p {
 	font-size: 25px;
-	max-width: 500px;
+	width: auto;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -253,14 +253,12 @@ a:visited {
 .tag {
 	border: 5px solid #fddfe7;
 	background-color: #fddfe7;
-	width: fit-content;
 	margin: 10px;
 }
 
 .tags {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 500px;
 }
 
 /* Thoughts about code section */
