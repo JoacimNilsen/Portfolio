@@ -250,6 +250,8 @@ a:visited {
 }
 
 .tag {
+	color: black;
+	font-size: 16px;
 	border: 5px solid #fddfe7;
 	background-color: #fddfe7;
 	margin: 10px;
@@ -320,8 +322,6 @@ a:visited {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	/* max-width: 1024px; */
-	/* width: auto; */
 }
 
 ul {
@@ -395,23 +395,22 @@ footer {
   align-items: center;
   height: 270px;
 	width: auto;
-	padding-bottom: 20px;
+	padding: 30px 0px 20px 0px;
   color: #ffffff;
 }
 
 .contact {
+	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	font-size: 38px;
 }
 
 footer p {
 font-size: 30px;
-font-family: "Roboto", sans-serif;
 font-weight: 700;
 }
 
 .email {
-	font-family: "Roboto", sans-serif;
   color: #ffffff;
   margin: 0px;
 }
