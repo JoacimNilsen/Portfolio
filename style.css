@@ -251,10 +251,13 @@ a:visited {
 
 .tag {
 	color: black;
-	font-size: 16px;
 	border: 5px solid #fddfe7;
 	background-color: #fddfe7;
 	margin: 10px;
+}
+
+.tags p {
+	font-size: 16px;
 }
 
 .tags {
@@ -474,6 +477,10 @@ font-weight: 700;
 
 	.tech-skills {
 		width: 400px;
+	}
+
+	.tags p {
+		font-size: 9px;
 	}
 
 	.wrapper-boxes {
