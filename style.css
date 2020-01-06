@@ -181,12 +181,14 @@ a:visited {
 	background-image: url(/assets/food-review.jpg);
 }
 
-.pizzabot {
-	background-image: url(/assets/pizzabot.jpg);
+.movies {
+	background-image: url(/assets/movies.png);
+	background-size: cover;
 }
 
-.cluedo {
-	background-image: url(/assets/cluedo.jpg);
+.happy {
+	background-image: url(/assets/happy.png);
+	background-size: cover;
 }
 
 .image {
