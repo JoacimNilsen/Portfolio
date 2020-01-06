@@ -257,6 +257,7 @@ a:visited {
 
 .tags {
 	display: flex;
+	flex-wrap: wrap;
 	max-width: 500px;
 }
 
@@ -462,10 +463,6 @@ font-size: 30px;
 	.image {
 		height: 200px;
 		width: 300px;	
-	}
-
-	.tags {
-		flex-wrap: wrap;
 	}
 
 	.other-projects {
