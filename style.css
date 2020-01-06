@@ -4,6 +4,8 @@ body {
 	letter-spacing: 0;
 	line-height: 1.5;
 	width: auto;
+	position: absolute;
+	top: -27px;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
 	position: relative;
 	top: 120px;
 	left: 170px;
-	max-width: 200px;
+	max-width: 400px;
 }
 
 /* Overall styling */
