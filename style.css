@@ -5,7 +5,7 @@ body {
 	line-height: 1.5;
 	width: auto;
 	position: relative;
-	top: -27px;
+	top: -37px;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 /* Overall styling */
 
 h1 {
-	font-size: 70px;
+	font-size: 82px;
 	text-transform: lowercase;
 	font-weight: 700;
 }
@@ -49,7 +49,7 @@ h3 {
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 28px;
 	text-transform: uppercase;
 	font-family: "Roboto", sans-serif;
 }
@@ -125,7 +125,7 @@ a:visited {
 .head-portrait {
 	position: absolute;
 	margin: 0;
-	top: 250px;
+	top: 220px;
 	right: 10%;
 }
 
@@ -154,8 +154,9 @@ a:visited {
 /* Tech skills */
 
 .tech-skills {
-	height: auto;
+	margin: auto;
 	min-height: 400px;
+	max-width: 1024px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -164,8 +165,6 @@ a:visited {
 
 .tech-skills p {
 	font-size: 30px;
-	width: auto;
-	max-width: 1024px;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -320,9 +319,9 @@ a:visited {
 .skill-box-wrap {
 	display: flex;
 	justify-content: center;
-
-	max-width: 1024px;
-	width: auto;
+	flex-wrap: wrap;
+	/* max-width: 1024px; */
+	/* width: auto; */
 }
 
 ul {
@@ -388,15 +387,15 @@ h6 {
 /* Footer */
 
 footer {
-  background-color: blue;
+	background-color: blue;
+	margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
-	padding-top: 130px;
-	padding-bottom: 190px;
-  width: auto;
+  height: 270px;
+	width: auto;
+	padding-bottom: 20px;
   color: #ffffff;
 }
 
@@ -407,9 +406,12 @@ footer {
 
 footer p {
 font-size: 30px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
 }
 
 .email {
+	font-family: "Roboto", sans-serif;
   color: #ffffff;
   margin: 0px;
 }
@@ -422,6 +424,42 @@ font-size: 30px;
 
 @media (max-width: 1025px) {
 
+	h1 {
+		font-size: 70px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	h3 {
+		font-size: 17px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	h5 {
+		font-size: 21px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 17px;
+	}
+
+	.box p {
+		font-size: 17px;
+	}
+
+	li {
+		font-size: 17px;
+	}
+
 	header {
 		background-size: cover;
 	}
@@ -429,6 +467,14 @@ font-size: 30px;
 	.head-text {
 		top: 100px;
 		left: 40px;
+	}
+
+	.description {
+		width: 300px;
+	}
+
+	.tech-skills {
+		width: 400px;
 	}
 
 	.wrapper-boxes {
@@ -441,10 +487,24 @@ font-size: 30px;
 
 	.row {
 		flex-direction: column;
+		width: 300px;
 	}
 
-	.skill-box-wrap {
-		flex-wrap: wrap;
+	.skill-box {
+		width: 180px;
+	}
+
+	.contact {
+		font-size: 21px;
+	}
+
+	footer p {
+		font-weight: 700;
+		font-size: 17px;
+	}
+
+	.email {
+		font-size: 17px;
 	}
 
 	.red-link {
@@ -468,10 +528,6 @@ font-size: 30px;
 	.other-projects {
 		max-width: 300px;
 	}
-
-	footer p {
-		font-size: 24px;
-	}
 }
 
 @media (max-width: 800px) {
@@ -481,12 +537,12 @@ font-size: 30px;
 	}
 
 	h1 {
-		font-size: 50px;
+		font-size: 40px;
 		
 	}
 
 	h4 {
-		font-size: 16px;
+		font-size: 13px;
 	}
 
 	.head-text {
@@ -517,7 +573,7 @@ font-size: 30px;
 	.head-portrait {
 		position: absolute;
 		margin: 0;
-		top: 370px;
+		top: 360px;
 		right: 15%;
 	}
 	
