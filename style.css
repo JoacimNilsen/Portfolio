@@ -47,8 +47,8 @@ h2 {
 h3 {
 	font-size: 24px;
 	color: white;
-	background-color: red;
-	border: solid red;
+	background-color: #fca7a7;
+	border: solid #fca7a7;
 }
 
 h4 {
@@ -216,20 +216,22 @@ a:visited {
 	justify-content: space-between;
 }
 
-.weather {
-	background-image: url(/assets/weather-app.jpg);
+.first {
+	background-image: url(/assets/Todo.png);
+	background-size: contain;
 }
 
-.food-review {
-	background-image: url(/assets/food-review.jpg);
+.second {
+	background-image: url(/assets/purple.png);
+	background-size: 150%;
 }
 
-.movies {
+.third {
 	background-image: url(/assets/movies.png);
 	background-size: cover;
 }
 
-.happy {
+.fourth {
 	background-image: url(/assets/happy.png);
 	background-size: cover;
 }
