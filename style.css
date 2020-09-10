@@ -351,13 +351,11 @@ a:visited {
 	padding-bottom: 70px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-direction: column;
 }
 .skill-box-wrap {
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 }
 
 ul {
@@ -520,7 +518,7 @@ footer p {
 	}
 
 	.tech-skills {
-		width: 400px;
+		width: 80%;
 	}
 
 	.tags p {
@@ -540,7 +538,7 @@ footer p {
 		width: 300px;
 	}
 
-	.skill-box {
+	.skill-box {	
 		width: 180px;
 	}
 
@@ -581,6 +579,11 @@ footer p {
 }
 
 @media (max-width: 800px) {
+
+	body {
+		width: 100%;
+	}
+
 	header {
 		background-size: cover;
 	}
@@ -627,6 +630,10 @@ footer p {
 
 	.portrait {
 		width: 162px;
+	}
+
+	.skill-box-wrap {
+		flex-direction: column;
 	}
 
 	.big-link {
