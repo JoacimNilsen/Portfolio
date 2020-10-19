@@ -282,6 +282,14 @@ a:visited {
 	margin-top: 150px;
 }
 
+.other-box {
+	width: 250px;
+}
+
+.other-box-wrap {
+	display: flex;
+}
+
 .tag {
 	color: black;
 	border: 5px solid #fddfe7;
@@ -632,6 +640,14 @@ footer p {
 
 	.portrait {
 		width: 162px;
+	}
+
+	.other-box {
+		width: 160px;
+	}
+
+	.other-box-wrap {
+		flex-direction: column;
 	}
 
 	.skill-box-wrap {
